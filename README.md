@@ -9,5 +9,5 @@ Enter your Google Maps API key on the map.To use JavaScript, you'll need a perso
 
 The sample deployment is available at: https://ip-tracker-by-yaya.netlify.app/.
 
-<img src="public/images/mobile.jpg" width="22%"/>
-<img src="public/images/desktop.png" width="70%"/>
+<img src="public/images/mobile.jpg" width="20%"/>
+<img src="public/images/desktop.png" width="60%"/>

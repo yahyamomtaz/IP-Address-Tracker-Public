@@ -1,0 +1,58 @@
+{
+  "name": "ip-address-tracker",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "body-parser": "^1.20.3",
+    "clsx": "^2.1.1",
+    "express": "^4.21.0",
+    "framer-motion": "^11.5.4",
+    "google-map-react": "^2.2.1",
+    "google-maps-react-markers": "^2.0.11",
+    "mini-svg-data-uri": "^1.4.4",
+    "nth-check": "^2.0.1",
+    "path-to-regexp": "^8.2.0",
+    "postcss": "^8.4.31",
+    "postcss-loader": "^4.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.0.1",
+    "react-ipgeolocation": "^1.4.0",
+    "react-scripts": "^5.0.1",
+    "rollup": "^2.79.2",
+    "send": "^0.19.0",
+    "serve-static": "^1.16.2",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss": "^3.4.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "babel-preset-env": "^0.0.0",
+    "babel-preset-react": "*",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts eject"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
